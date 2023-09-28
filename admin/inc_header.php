@@ -66,13 +66,13 @@ include("../inc/inc_koneksi.php");
                             <a class="nav-link active" aria-current="page" href="#">Admin Halaman</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Admin Tutors</a>
+                            <a class="nav-link" href="#">Admin Tentang Kami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Admin Menu</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Admin Partner</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Admin Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">Logout>></a>

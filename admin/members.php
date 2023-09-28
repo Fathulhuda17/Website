@@ -40,7 +40,6 @@ if ($sukses) {
             <th class="col-1">#</th>
             <th class="col-2">Email</th>
             <th>Nama</th>
-            <th class="col-2">Status</th>
         </tr>
     </thead>
     <tbody>
@@ -71,18 +70,6 @@ if ($sukses) {
                 <td><?php echo $nomor++ ?></td>
                 <td><?php echo $r1['email']?></td>
                 <td><?php echo $r1['nama_lengkap'] ?></td>
-                <td>
-                    <?php 
-                    if($r1['status'] == '1'){
-                        ?>
-                        <span class="badge bg-success">Aktif</span>
-                        <?php
-                    }else{
-                        ?>
-                        <span class="badge bg-light">Belum Aktif</span>
-                        <?php
-                    }
-                    ?>
                 </td>
             </tr>
         <?php
