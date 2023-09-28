@@ -72,8 +72,7 @@ if(isset($_POST['simpan'])){
         <td>
             <input type="password" name="konfirmasi_password" class="input" />
             <br/>
-            Sudah punya akun? Silakan <a href='<?php echo url_dasar()?>/login.php'>Login</a>
-        </td>
+
     </tr>
     <tr>
         <td></td>
