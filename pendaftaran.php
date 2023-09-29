@@ -37,7 +37,14 @@ if(isset($_POST['simpan'])){
     if(strlen($password) < 6){
         $err .= "<li>Panjang karakter yang diizinkan untuk password paling tidak 6 karakter.</li>";
     }
-    
+    if(empty($err)){   $sql1       = "insert into members (email,nama_lengkap,password) values ('$email','$nama_lengkap',$password)";
+        $q1         = mysqli_query($koneksi,$sql1);
+        if($q1){
+            $sukses = "Proses Berhasil.";
+        }
+
+        
+    }
 
 }
 
